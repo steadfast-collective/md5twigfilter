@@ -1,8 +1,8 @@
 # MD5 Twig Filter plugin for Craft CMS 3.x
 
-A filter for twig to hash a string with MD5
+A simple filter for twig to hash a string with MD5.
 
-![Screenshot](resources/img/plugin-logo.png)
+IMPORTANT! Do not use md5 to hash passwords or other sensitive data, MD5 is considered crytographically broken.
 
 ## Requirements
 
@@ -22,22 +22,9 @@ To install the plugin, follow these instructions.
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for MD5 Twig Filter.
 
-## MD5 Twig Filter Overview
-
--Insert text here-
-
-## Configuring MD5 Twig Filter
-
--Insert text here-
-
 ## Using MD5 Twig Filter
 
--Insert text here-
+        {{ md5("some string" }}
+        {{ "some string" | md5 }}
 
-## MD5 Twig Filter Roadmap
-
-Some things to do, and ideas for potential features:
-
-* Release it
-
-Brought to you by [Daniel Jones](https://steadfastcollective.com/)
+Brought to you by [Steadfast Collective](https://steadfastcollective.com/)
