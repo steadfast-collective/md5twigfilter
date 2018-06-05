@@ -1,0 +1,40 @@
+{
+    "name": "steadfastcollective/md5-twig-filter",
+    "description": "A filter for twig to hash a string with MD5",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "md5 twig filter"
+    ],
+    "support": {
+        "docs": "https://steadfastcollective.com/",
+        "issues": "https://steadfastcollective.com/"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Jones",
+            "homepage": "https://steadfastcollective.com/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "steadfastcollective\\md5twigfilter\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "MD5 Twig Filter",
+        "handle": "md5-twig-filter",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "???",
+        "class": "steadfastcollective\\md5twigfilter\\Md5TwigFilter"
+    }
+}
